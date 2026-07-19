@@ -3,27 +3,138 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+
+    <!-- Bright playroom sky -->
     <path
-        android:fillColor="#A7E7FF"
+        android:fillColor="#7AD7FF"
         android:pathData="M0,0h108v108h-108z" />
+
+    <!-- Soft ground bump -->
     <path
-        android:fillColor="#FF5252"
-        android:pathData="M39,18C50,18 59,29 59,42C59,55 50,66 39,66C28,66 19,55 19,42C19,29 28,18 39,18ZM34,62L44,62L39,71Z" />
+        android:fillColor="#9BE86A"
+        android:pathData="M0,88C18,78 42,74 54,74C66,74 90,78 108,88L108,108L0,108Z" />
+
+    <!-- Shadow under balloon -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.12"
+        android:pathData="M54,94m-18,0a18,8 0,1 1,36 0a18,8 0,1 1,-36 0" />
+
+    <!-- Balloon outline (dark) -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M54,12C36,12 22,28 22,48C22,68 36,84 54,84C72,84 86,68 86,48C86,28 72,12 54,12Z" />
+
+    <!-- Balloon body -->
+    <path
+        android:fillColor="#FF4D6D"
+        android:pathData="M54,16C38.5,16 26,31 26,48C26,65 38.5,80 54,80C69.5,80 82,65 82,48C82,31 69.5,16 54,16Z" />
+
+    <!-- Cheek blush left -->
+    <path
+        android:fillColor="#FF8FA3"
+        android:fillAlpha="0.85"
+        android:pathData="M34,54m-6,0a6,4.5 0,1 1,12 0a6,4.5 0,1 1,-12 0" />
+
+    <!-- Cheek blush right -->
+    <path
+        android:fillColor="#FF8FA3"
+        android:fillAlpha="0.85"
+        android:pathData="M74,54m-6,0a6,4.5 0,1 1,12 0a6,4.5 0,1 1,-12 0" />
+
+    <!-- Big white eye left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M42,42m-11,0a11,12 0,1 1,22 0a11,12 0,1 1,-22 0" />
+
+    <!-- Big white eye right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,42m-11,0a11,12 0,1 1,22 0a11,12 0,1 1,-22 0" />
+
+    <!-- Eye outline left -->
+    <path
+        android:strokeColor="#3E2723"
+        android:strokeWidth="2.4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M42,42m-11,0a11,12 0,1 1,22 0a11,12 0,1 1,-22 0" />
+
+    <!-- Eye outline right -->
+    <path
+        android:strokeColor="#3E2723"
+        android:strokeWidth="2.4"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M66,42m-11,0a11,12 0,1 1,22 0a11,12 0,1 1,-22 0" />
+
+    <!-- Pupil left -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M44,44m-5.2,0a5.2,5.8 0,1 1,10.4 0a5.2,5.8 0,1 1,-10.4 0" />
+
+    <!-- Pupil right -->
+    <path
+        android:fillColor="#3E2723"
+        android:pathData="M68,44m-5.2,0a5.2,5.8 0,1 1,10.4 0a5.2,5.8 0,1 1,-10.4 0" />
+
+    <!-- Eye shine left -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40.5,39.5m-2.4,0a2.4,2.4 0,1 1,4.8 0a2.4,2.4 0,1 1,-4.8 0" />
+
+    <!-- Eye shine right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M64.5,39.5m-2.4,0a2.4,2.4 0,1 1,4.8 0a2.4,2.4 0,1 1,-4.8 0" />
+
+    <!-- Happy smile -->
+    <path
+        android:strokeColor="#3E2723"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M44,58C48,66 60,66 64,58" />
+
+    <!-- Gloss highlight -->
     <path
         android:fillColor="#FFFFFF"
         android:fillAlpha="0.55"
-        android:pathData="M31,27C35,27 38,31 38,37C38,43 35,47 31,47C27,47 24,43 24,37C24,31 27,27 31,27Z" />
+        android:pathData="M40,24C44,22 50,24 52,30C54,36 50,40 44,40C38,40 34,34 36,28C37,25.5 38.5,24.5 40,24Z" />
+
+    <!-- Knot -->
     <path
-        android:fillColor="#42A5F5"
-        android:pathData="M71,28C81,28 89,38 89,50C89,62 81,72 71,72C61,72 53,62 53,50C53,38 61,28 71,28ZM66,68L76,68L71,77Z" />
+        android:fillColor="#C62828"
+        android:pathData="M48,80L60,80L54,90Z" />
     <path
-        android:fillColor="#FFFFFF"
-        android:fillAlpha="0.50"
-        android:pathData="M64,36C68,36 70,40 70,45C70,50 68,54 64,54C60,54 58,50 58,45C58,40 60,36 64,36Z" />
+        android:fillColor="#FF4D6D"
+        android:pathData="M50,81L58,81L54,88Z" />
+
+    <!-- Wavy string -->
     <path
-        android:strokeColor="#795548"
-        android:strokeWidth="2"
+        android:strokeColor="#6D4C41"
+        android:strokeWidth="3"
         android:strokeLineCap="round"
         android:fillColor="@android:color/transparent"
-        android:pathData="M39,71c-9,11 8,15 0,27M71,77c-10,9 8,14 0,25" />
+        android:pathData="M54,90C48,96 60,100 54,106" />
+
+    <!-- Cartoon pop stars -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M16,28L18.2,33.2L24,34L19.8,37.6L21,43L16,40.2L11,43L12.2,37.6L8,34L13.8,33.2Z" />
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M92,34L93.8,38.2L98.5,38.8L95,41.8L96,46.2L92,43.8L88,46.2L89,41.8L85.5,38.8L90.2,38.2Z" />
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M88,68L89.4,71.2L93,71.7L90.3,74L91,77.4L88,75.6L85,77.4L85.7,74L83,71.7L86.6,71.2Z" />
+
+    <!-- Tiny confetti squares -->
+    <path
+        android:fillColor="#7C4DFF"
+        android:pathData="M14,52h5v5h-5z" />
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M90,52h5v5h-5z" />
+    <path
+        android:fillColor="#40C4FF"
+        android:pathData="M20,72h4v4h-4z" />
 </vector>
