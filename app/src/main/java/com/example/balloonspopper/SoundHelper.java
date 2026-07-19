@@ -15,6 +15,7 @@ public final class SoundHelper {
     private int dogSoundId;
     private int cowSoundId;
     private int duckSoundId;
+    private int balloonPopSoundId;
     private boolean soundsLoaded;
     private boolean enabled = true;
 
@@ -51,6 +52,7 @@ public final class SoundHelper {
             dogSoundId = soundPool.load(this.context, R.raw.dog_bark, 1);
             cowSoundId = soundPool.load(this.context, R.raw.cow_moo, 1);
             duckSoundId = soundPool.load(this.context, R.raw.duck_quack, 1);
+            balloonPopSoundId = soundPool.load(this.context, R.raw.balloon_pop, 1);
         } catch (RuntimeException ignored) {
             soundPool = null;
         }
@@ -82,6 +84,13 @@ public final class SoundHelper {
 
     public void playSuccess() {
         play(ToneGenerator.TONE_PROP_ACK, 90);
+    }
+
+    public void playBalloonPop() {
+        if (!enabled || soundPool == null || balloonPopSoundId == 0) {
+            return;
+        }
+        soundPool.play(balloonPopSoundId, 0.88f, 0.88f, 1, 0, 1f);
     }
 
     public boolean playAnimal(String animalName) {

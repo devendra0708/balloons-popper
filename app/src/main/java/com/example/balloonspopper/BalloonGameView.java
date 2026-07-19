@@ -372,7 +372,7 @@ public class BalloonGameView extends View {
 
         // Keep real animal recordings clear instead of layering a UI beep over them.
         if (sounds != null && balloon.animalType == null) {
-            sounds.playSuccess();
+            sounds.playBalloonPop();
         }
 
         advanceTargetAfterPop(balloon);
