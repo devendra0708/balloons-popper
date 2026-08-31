@@ -1,6 +1,6 @@
-# Animal sound credits
+# Sound credits
 
-Audio files are used unmodified from Wikimedia Commons:
+## Animal sounds (Wikimedia Commons, used unmodified)
 
 - `cat_meow.ogg` — “Meow.ogg” by Dan Crosby (Dcrosby), CC BY-SA 3.0  
   https://commons.wikimedia.org/wiki/File:Meow.ogg
@@ -11,7 +11,12 @@ Audio files are used unmodified from Wikimedia Commons:
 - `duck_quack.ogg` — “Indian Spot-billed Duck - XC114233” by Sharad Apte, CC BY-SA 3.0  
   https://commons.wikimedia.org/wiki/File:Anas_poecilorhyncha_-_Indian_Spot-billed_Duck_-_XC114233.ogg
 
-License texts:
+## Balloon pop
+
+- `balloon_pop.wav` — derived from “Balloon: burst” by Joseph Sardin / BigSoundBank, CC0  
+  https://bigsoundbank.com/balloon-burst-s0551.html
+
+## License texts
 
 - CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
 - CC BY-SA 3.0: https://creativecommons.org/licenses/by-sa/3.0/
