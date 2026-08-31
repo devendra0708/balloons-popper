@@ -8,5 +8,5 @@ Open this folder in Android Studio, let Gradle sync, then run the `app` configur
 
 ## Project
 
-- `app/src/main/java/com/example/balloonspopper/MainActivity.java` starts the fullscreen game.
-- `app/src/main/java/com/example/balloonspopper/BalloonGameView.java` draws balloons, handles touches, and runs the animation loop.
+- `app/src/main/java/com/devendra/balloonspopper/MainActivity.java` starts the fullscreen game.
+- `app/src/main/java/com/devendra/balloonspopper/BalloonGameView.java` draws balloons, handles touches, and runs the animation loop.

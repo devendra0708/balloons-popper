@@ -1,4 +1,4 @@
-package com.example.balloonspopper;
+package com.devendra.balloonspopper;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -180,12 +180,24 @@ public class MainActivity extends Activity {
 
     private void showParents() {
         new AlertDialog.Builder(this)
-                .setTitle("Parents")
-                .setMessage("Balloons Popper is a simple learning play app.\n\n"
-                        + "• No ads or in-app purchases\n"
+                .setTitle("For Grown-ups")
+                .setMessage("Balloons Popper is a simple learning play app for kids.\n\n"
+                        + "Privacy\n"
+                        + "• No ads, tracking, accounts, or in-app purchases\n"
+                        + "• No internet permission — play works offline\n"
+                        + "• Only stores stars and sound setting on this device\n"
+                        + "• Does not collect personal information\n\n"
+                        + "Play tips\n"
                         + "• Sound can be turned off on Home\n"
                         + "• Stars unlock extra game modes\n"
-                        + "• Designed for short, calm play sessions")
+                        + "• Designed for short, calm play sessions\n\n"
+                        + "Sound credits\n"
+                        + "• Cat meow — Dan Crosby (Dcrosby), Wikimedia Commons, CC BY-SA 3.0\n"
+                        + "• Dog bark — redpanal.org, Wikimedia Commons, CC BY-SA 3.0\n"
+                        + "• Cow moo — MichaeltheFox8621, Wikimedia Commons, CC BY-SA 4.0\n"
+                        + "• Duck quack — Sharad Apte, Wikimedia Commons, CC BY-SA 3.0\n"
+                        + "• Balloon pop — Joseph Sardin / BigSoundBank, CC0\n\n"
+                        + "Full license details are in the project credits file.")
                 .setPositiveButton("OK", null)
                 .show();
     }

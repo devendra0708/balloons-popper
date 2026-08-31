@@ -1,4 +1,4 @@
-package com.example.balloonspopper;
+package com.devendra.balloonspopper;
 
 import android.content.Context;
 import android.graphics.Canvas;
